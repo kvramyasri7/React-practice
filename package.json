@@ -1,0 +1,22 @@
+{
+  "name": "react-practice",
+  "version": "1.0.0",
+  "description": "react pactice by sowmya kota",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/sowmyadev-kota/React-practice.git"
+  },
+  "author": "Sowmya Kota",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sowmyadev-kota/React-practice/issues"
+  },
+  "homepage": "https://github.com/sowmyadev-kota/React-practice#readme",
+  "devDependencies": {
+    "parcel": "^2.11.0"
+  }
+}

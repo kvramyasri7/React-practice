@@ -1,0 +1,8 @@
+Difference between ^ and ~
+^ in package.json installs minor version
+~ in package.json installs major version
+
+Difference between package.json and package.lock.json
+
+package.json can have ^2.8.3 but package.lock.josn will have exact version and approximate version.
+transitive dependencies , where parcel dependes on other dependencies
