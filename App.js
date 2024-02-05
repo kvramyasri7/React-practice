@@ -23,10 +23,29 @@ return (
 )
 }
 
-const AppLayout = () =>{
+const ReatrauntCard  = () =>{
+    return(
+        <div className="res-card" style={{backgroundColor:"#f0f0f0"}}>
+            <h3>Sowmya foods</h3>
+        </div>
+    );
+}
+
+const Body =() =>{
     return (
-        <div className="app">
+        <div className="body">
+            <div className="search">Search</div>
+            <div className="res-container"><ReatrauntCard/></div>
+        </div>
+    )
+}
+
+
+const AppLayout = () =>{
+return (
+    <div className="app">
             <Header />
+            <Body/>
         </div>
     )
 }
